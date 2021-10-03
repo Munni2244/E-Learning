@@ -1,0 +1,12 @@
+.banner{
+    background-image: url("/src/banner3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: rgb(236, 234, 234);
+    
+
+}
+.banner-details{
+    margin-top: 100px;
+}

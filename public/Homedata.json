@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Java",
+      "description": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.",
+      "img": "https://cdn.vox-cdn.com/thumbor/_AobZZDt_RVStktVR7mUZpBkovc=/0x0:640x427/1200x800/filters:focal(0x0:640x427)/cdn.vox-cdn.com/assets/1087137/java_logo_640.jpg",
+      "id": 1,
+      "prices":500
+    },
+    {
+      "title": " JavaScript",
+      "description": "JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. JavaScript is easy to learn. This tutorial will ",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png",
+      "id": 2,
+      "prices":600
+    },
+    {
+      "title": "Python",
+      "description": "Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant .",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3YkpCjcTTwxOL6f2lYXPGitC1nPRH-ETDOw&usqp=CAU",
+      "id": 3,
+      "prices":560
+    },
+    {
+      "title": "c++",
+      "description": "C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and so on. C++ supports different ways .",
+      "img": "https://www.educationmesd.com/wp-content/uploads/2021/01/C.png",
+      "id": 4,
+      "prices":670
+    }
+  ]
