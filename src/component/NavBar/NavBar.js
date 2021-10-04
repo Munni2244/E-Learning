@@ -11,13 +11,13 @@ const NavBar = () => {
     }
     return (
         <div>
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="secondary" variant="dark">
                 <Container>
                     <Nav>
                         <Link style={style} to="/home">Home</Link>
                         <Link style={style} to="/about">About</Link>
                         <Link style={style} to="/survice">Survice</Link>
-                        <Link style={style} to="/contact">Contact</Link>
+                        <Link style={style} to="/support">Support</Link>
                     </Nav>
                 </Container>
             </Navbar>

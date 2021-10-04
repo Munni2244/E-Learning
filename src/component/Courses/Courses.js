@@ -15,12 +15,13 @@ const Courses = () => {
     return (
         <div>
             <Container>
-                <Row>
-                <h1 className="my-5">Our Courses <i class="fas fa-book-reader text-warning"></i></h1>
+               
+                <h1 className="my-5 text-light">Our Courses <i class="fas fa-book-reader text-warning"></i></h1>
+               
              {
                  courses?.map( course=> <Course course={course}></Course>)
              }
-                </Row>
+             
             </Container>
         </div>
     );
