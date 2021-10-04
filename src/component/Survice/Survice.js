@@ -6,16 +6,17 @@ const Survice = (props) => {
     return (
         
             <Col lg={4} md={6} xs={12}>
-            <Card style={{ width: '20rem' }} className="shadow-lg p-2">
-  <Card.Img variant="top" height="200px" src={img} />
-  <Card.Body>
-    <Card.Title>{title}</Card.Title>
-    <Card.Text>
-     {description}
-    </Card.Text>
-    <Card.Text> ${prices}</Card.Text>
-  </Card.Body>
-</Card>
+            <Card style={{ width: '20rem', height:'500px' }} className="shadow-lg p-2">
+                <Card.Img variant="top" height="200px" src={img} />
+                <Card.Body>
+                  <Card.Title>{title}</Card.Title>
+                  <Card.Text>
+                  {description}
+                  </Card.Text>
+                  <Card.Text> ${prices}</Card.Text>
+                  <button className="btn btn-secondary">Apply Now</button>
+               </Card.Body>
+              </Card>             
             </Col>
     
     );

@@ -1,15 +1,18 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Footer from '../Footer/Footer';
+import NavBar from '../NavBar/NavBar';
 
 const About = () => {
     return (
-        <div style={{marginBottom:'20%'}}>
+        <div>
+             <NavBar></NavBar>
             <Container className="bg-light shadow">
             <div className=" p-5 m-5 text-center fs-5">
-                <img src="" alt="" />
+                <img style={{borderRadius:'100%', width:'220px' , height:'200px'}} src="https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/07/08/img_2842_0.jpg?itok=styt4qgr" alt="" />
                 <h1>Jhanker Mahbub</h1>
                 <h3>Our Team Hero! The Real Programming Hero</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tempore odio corporis debitis, atque reprehenderit necessitatibus rerum minus? Molestias laborum porro magni quae maxime ab voluptatem velit quam, deserunt in.</p>
+                <p> Studied in Department of Industrial and Production Engineering, BUET. Did Masters in Computer Science in North Dakota State University. Currently working as a web developer for Nielsen, Chicago.Did Masters in Computer Science in North Dakota State University. Currently working as a web developer for Nielsen, Chicago. Combine Editions .</p>
             </div>
             </Container>
             <Container>
@@ -35,6 +38,7 @@ const About = () => {
                 </Col>
                 </Row>
                </Container>
+               <Footer></Footer>
         </div>
     );
 };

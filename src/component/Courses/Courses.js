@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Course from '../Course/Course';
 
 const Courses = () => {
@@ -19,7 +19,7 @@ const Courses = () => {
                 <h1 className="my-5 text-light">Our Courses <i class="fas fa-book-reader text-warning"></i></h1>
                
              {
-                 courses?.map( course=> <Course course={course}></Course>)
+                 courses?.map( course=> <Course course={course} key={course.id}></Course>)
              }
              
             </Container>
