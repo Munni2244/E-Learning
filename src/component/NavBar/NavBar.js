@@ -13,7 +13,7 @@ const NavBar = () => {
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Nav >
+                    <Nav>
                        <Link style={style} to="/home">Home</Link>
                         <Link style={style} to="/about">About</Link>
                         <Link style={style} to="/survice">Survice</Link>

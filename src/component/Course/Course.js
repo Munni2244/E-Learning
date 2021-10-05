@@ -15,7 +15,7 @@ const Course = (props) => {
             <Col lg={7} md={6} xs={12}>
             <h1>{title}</h1>
             <p className="fs-5">{description}</p>
-            <p>${prices}</p>
+            <p className="fw-bold">${prices}</p>
             <button className="btn btn-secondary"> Apply Now</button>
             </Col>
             </Row>
