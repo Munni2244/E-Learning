@@ -1,12 +1,10 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Footer from '../Footer/Footer';
-import NavBar from '../NavBar/NavBar';
+
 
 const About = () => {
     return (
         <div>
-             <NavBar></NavBar>
             <Container className="bg-light shadow">
             <div className=" p-5 m-5 text-center fs-5">
                 <img style={{borderRadius:'100%', width:'220px' , height:'200px'}} src="https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2021/07/08/img_2842_0.jpg?itok=styt4qgr" alt="" />
@@ -37,8 +35,9 @@ const About = () => {
                     <h3>Public staisfied</h3>
                 </Col>
                 </Row>
+                <h1 className="my-5 text-center text-light"> Call Now: ++089462183</h1>
                </Container>
-               <Footer></Footer>
+           
         </div>
     );
 };

@@ -42,7 +42,7 @@
     },
     {
         "title":"CSS",
-        "description":"Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web",
+        "description":"Cascading Style describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web",
         "img":"https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
         "id": 7,
         "rating":4,
@@ -51,7 +51,7 @@
     },
     {
         "title":"BootsTrap",
-        "description":"Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography,",
+        "description":"Bootstrap is a free and open-source CSS framework directed at responsive, web development. It contains CSS- and JavaScript-based design templates for typography,",
         "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png",
         "id": 8,
         "rating":5,

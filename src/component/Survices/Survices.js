@@ -17,7 +17,6 @@ const Survices = () => {
 
     return (
         <div>
-             <NavBar></NavBar>
            <Container>
                <h1 className="text-center text-light mt-5">More Courses You Want <i class="fas fa-hand-point-down text-warning"></i></h1>
            <Row className="g-5 my-4 mb-5 ">
@@ -26,7 +25,7 @@ const Survices = () => {
             }
             </Row>
            </Container>
-           <Footer></Footer>
+          
         </div>
     );
 };

@@ -13,9 +13,9 @@ import Support from './component/Support/Support';
 
 function App() {
   return (
-   <div className="blog">
+  
       <BrowserRouter>
-    
+    <NavBar></NavBar>
     <Switch>
        <Route exact path="/">
       <Home></Home>
@@ -41,9 +41,8 @@ function App() {
         <ErrorMsg></ErrorMsg>
        </Route>
     </Switch>
-   
+   <Footer></Footer>
     </BrowserRouter>
-   </div>
   );
 }
 

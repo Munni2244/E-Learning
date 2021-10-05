@@ -3,9 +3,9 @@ import { Row,Col, Container } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <div className="bg-dark text-light mb-0">
-            <footer> 
-               <Container>
+        
+         <div className="bg-dark text-light " style={{marginBottom:'0px'}}>
+                   <Container>
                <Row className="p-5">
                 <Col lg={6} md={6} xs={12}>
                     <p><small> We are suppoted daily 12 hours. If You want to prove Your self join us</small></p>
@@ -26,13 +26,14 @@ const Footer = () => {
                     <h6><small>Number</small></h6>
                     <h6><small>Identy</small></h6>
                 </Col >
-               
-              
                 </Row>
-               </Container>
-                <p className="text-center"><small>Copyright © 2021 Education web. All Rights Reserved.</small></p>
+                <footer className="text-center"> 
+               <small>Copyright © 2021 Education web. All Rights Reserved.</small>
             </footer>
-        </div>
+   
+               </Container>
+         </div>
+         
     );
 };
 

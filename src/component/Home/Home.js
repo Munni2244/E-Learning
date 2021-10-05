@@ -8,10 +8,10 @@ import NavBar from '../NavBar/NavBar';
 const Home = () => {
     return (
         <div>
-            <NavBar></NavBar>
+            
             <Header></Header>
             <Courses></Courses>
-            <Footer></Footer>
+        
         </div>
     );
 };
